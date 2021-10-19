@@ -28,7 +28,18 @@ opentopd是一款基于luci-theme-material构建,使用HTML5、CSS3编写的Luci
 
 更新日志：
 
-2021.9.19： opentopd 1.3.6  
+
+2021.10.19： opentopd 1.3.8  
+
+            1.取消自动更新壁纸。
+	    
+	    2.修复HELLOWORLD被档住应用无法点击按钮问题。
+	    
+	    3.修复新版按钮选择无箭头问题。
+	    
+	    4.全新整理优化UI，使之更适合手机操控。
+	    
+2021.10.16： opentopd 1.3.6  
 
             1.取消自动更新壁纸问题。
 	    
@@ -43,6 +54,10 @@ opentopd是一款基于luci-theme-material构建,使用HTML5、CSS3编写的Luci
 	    3、修复插件多个项目超出后隐藏看不到问题。
 	    
 	    4、优化背景图主题占用空间更少.
+	    
+2020.5.25： opentopd 1.2.4 更新背景等
+	    
+2019.10.5： opentopd 1.0.0 在前人大神的基础上，自制字体发布首版本。
 
 ## 下载源码方法一：
 编辑源码文件夹根目录feeds.conf.default并加入如下内容:
@@ -75,9 +90,11 @@ opentopd是一款基于luci-theme-material构建,使用HTML5、CSS3编写的Luci
     # 编译固件
     make package/luci-app-opentopd/{clean,compile} V=s
  ```
-![xm1](doc/登陆页面.jpg)
-![xm2](doc/实时监控.jpg)
-![xm3](doc/手机画面.jpg)
+![xm1](doc/登陆界面2.jpg)
+![xm2](doc/预览界面.jpg)
+![xm3](doc/高级设置.jpg)
+![xm3](doc/网络共享.jpg)
+![xm3](doc/合并图.jpg)
 
 ## 说明 [![](https://img.shields.io/badge/-说明-F5F5F5.svg)](#说明-)
 
